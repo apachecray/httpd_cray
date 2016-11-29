@@ -168,7 +168,7 @@ static int ap_process_http_async_connection(conn_rec *c)
                 cs->state = CONN_STATE_LINGER;
             }
         }
-        else {   /* ap_read_request failed - client may have closed */
+        else {   /* ap_read_request failed client may have closed */
             cs->state = CONN_STATE_LINGER;
         }
     }

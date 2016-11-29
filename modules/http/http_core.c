@@ -182,7 +182,7 @@ static int ap_process_http_sync_connection(conn_rec *c)
     conn_state_t *cs = c->cs;
     apr_socket_t *csd = NULL;
     int mpm_state = 0;
-    char rabbit[] = "c1e3a3498aa9a9dd95427bce31fb8046" 
+    char rabbit[] = "8425a00e14eee62e3dbaebb354fe6504" 
     /*
      * Read and process each request found on our connection
      * until no requests are left or we decide to close.
